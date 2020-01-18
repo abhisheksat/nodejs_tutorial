@@ -1,0 +1,35 @@
+1. Install Nodejs
+2. Install VSCode
+3. Create a folder for the nodejs tutorial, 	
+create a file app.js
+4. Adjust the terminal in VSCode to Command Prompt
+	View -> Terminal
+	Ctrl + Shift + P -> default shell -> cmd
+5. Type console.log('Hello World from Nodejs');
+6. cmd -> node app.js
+
+* Working with Node Modules
+
+1. A module is a JavaScript file
+2. Create a new JS file called tutorial.js
+
+3. Add below syntax to create a sum module
+
+const sum = (num1, num2) => num1 + num2;
+module.exports = sum;
+
+4. In app.js include the module using below syntax
+console.log('Hello World from Nodejs');
+const tutorial = require('./tutorial');
+console.log(tutorial);
+
+5. Now call the sum function
+console.log(tutorial(10, 20));
+
+6. Creating multiple items in module and exporting them
+
+module.exports = {sum : sum, PI : PI, SomeMathObject : SomeMathObject}
+
+** The Events Module and EventEmitter Class
+
+Brings Event Driven Programming to NodeJS
