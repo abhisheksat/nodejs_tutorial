@@ -1,0 +1,12 @@
+Module 5 : Working with Readable and Writable Streams
+
+Deals with reading and writing data in stream / chunck
+as opposed to accessing the file as a whole.
+
+Benfits, you can start processing on the chunk of data
+that is available.
+You need not wait for the whole file to be loaded and then
+perform operations on it.
+You can start transmitting / sending / writing to a disk or file
+the available chunk of data.
+

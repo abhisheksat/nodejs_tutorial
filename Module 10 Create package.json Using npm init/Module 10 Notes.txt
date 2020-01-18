@@ -1,0 +1,13 @@
+Module 10: Create package.json Using npm init
+
+the package.json file holds all the metadata for our project
+name of project, version etc
+
+npm init
+
+and enter all the details.
+
+To skip you can use,
+npm init -y
+
+-y is default answer yes for every data

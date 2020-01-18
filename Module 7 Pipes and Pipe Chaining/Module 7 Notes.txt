@@ -1,0 +1,12 @@
+Module 7: Pipes and Pipe Chaining
+
+Pipe sends data from source to destination.
+
+In our example for module 7, we copy data given by the readStream
+and give it to the writeStream with help of pipe.
+
+The pipe takes data from the readStream and pumps it to the
+writeStream.
+
+All of the contents of example1 file would be copied to example2 file
+by connecting the read <-> write streams with pipe

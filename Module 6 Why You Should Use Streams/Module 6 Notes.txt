@@ -1,0 +1,12 @@
+Module 6 : Why You Should Use Streams
+
+In scenarios where the file size is GBs, it is difficult for the machine
+to cache it in main memory.
+
+When accessed using stream, the stream uses a small buffer
+which allows us to read the file in chunks.
+The file is not read at once, but whenever a data event occurs
+a chunk of the file is retrieved.
+
+Thus Stream is memory efficient and allows to read and write
+in chunks

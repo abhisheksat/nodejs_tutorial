@@ -1,0 +1,9 @@
+Module 9: Serving Static Files with Http and File System Modules
+
+With the server up and running, we can now serve some static files
+
+based on the content type, the files stored on the system (effectively a server)
+could be served by accessing then as stream using the file system module
+
+once available, it can the be given out from the readStream through pipe and
+pumped out to the http response 

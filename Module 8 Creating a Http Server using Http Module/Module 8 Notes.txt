@@ -1,0 +1,8 @@
+Module 8: Creating a Http Server using Http Module
+
+We require Http Module
+Create a server with request and response paramters
+Assign the server a port number to listen
+
+Utilize the request parameter properties to operate on the
+URL patterns that you wish to use
