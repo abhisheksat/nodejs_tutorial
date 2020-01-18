@@ -1,0 +1,10 @@
+Module 19: User Input Validation With Express And JOI - Part 2
+
+We learn to validate the nested JSON Objects.
+
+The approach is to have a separate validation schema for every different section of the
+nested object.
+
+Logically identifying the different parts in the nested object is the key.
+
+We test, schema for arrayString and arrayObjects.

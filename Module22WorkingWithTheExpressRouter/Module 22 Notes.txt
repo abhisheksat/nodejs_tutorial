@@ -1,0 +1,10 @@
+Module 22: Working with The Express Router
+
+We can create a specifc / series of routers with this Module.
+
+We can achieve logical segregation of request types by using different
+routes.
+
+The flow of one route is separate from the flow of the other route.
+
+Every route can also have its middleware.

@@ -1,0 +1,15 @@
+Module 18: User Input Validation With Express and JOI
+
+We validate the user input on the server side,
+as the input data cannot be trusted for security reasons.
+
+npm install joi
+
+We use the joi module to create a schema, that contains the Validation
+criteria for the request parameters / properties for which we want to impose
+the Validation.
+
+The validate method takes in three arguments
+1. The request body to be validated
+2. The schema designed, and to be applied for the request body
+3. A callback function with two parameters, (error, result)

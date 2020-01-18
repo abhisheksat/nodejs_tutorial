@@ -1,0 +1,6 @@
+Module 17: Working with JSON Data - Express and Body Parser
+
+This is about posting JSON data (form data) to the server
+It involves AJAX call with jQuery, creating an object and passing the JSON data
+to the server.
+

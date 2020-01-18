@@ -1,0 +1,17 @@
+Module 11: Installing Packages Using npm
+
+npmjs.com
+
+To install any package
+
+npm install package_name
+
+Upon installation, you can see package.json file
+and see the dependencies section and see the entry for the installed
+package/dependency
+
+For exercise, we are installing lodash package
+
+
+To uninstall a package, use
+npm uninstall package-name

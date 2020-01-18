@@ -1,0 +1,11 @@
+Module 13: Getting Started with Express Web Framework
+
+We used http and fs to serve files.
+With Express Web Framework for Node, we can achieve all of that
+with less code.
+
+https://expressjs.com
+
+
+npm init --yes
+npm install express

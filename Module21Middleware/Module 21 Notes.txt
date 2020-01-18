@@ -1,0 +1,14 @@
+Module 21: Middleware
+
+The Middleware is the code that get executed between the user request
+and the server.
+
+The Middleware can be generic, without any URL pattern
+Such a middleware will be executed for every incoming request
+
+If a Middleware is declared and defined for a specific URL pattern,
+then only requests for that pattern would first be processed by the
+middleware with specific URL then the next function would pass it to
+the handler
+
+The middleware can modify the request and response objects.

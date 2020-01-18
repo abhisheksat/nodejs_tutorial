@@ -1,0 +1,11 @@
+Module 12: Semantic versioning
+"lodash": "^4.17.11" // major version. minor version. patch update 
+
+If we use ^ 'caret' symbol, it means that, node can update the lodash minor version and patch update
+The major version would remain the same
+
+We can also use ~'tilde' symbol. It would only fetch patch updates
+The major and minor versions would remain the same
+
+We can have no symbols and just the version number. In this case, the version
+being used will be unchanged and unaffected by any kind of updates.

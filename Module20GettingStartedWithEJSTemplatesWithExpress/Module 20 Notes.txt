@@ -1,0 +1,20 @@
+Module 20: Getting Started with EJS Templates with Express
+
+EJS : Embedded JavaScript
+EJS allows us to create more dynamic web pages.
+
+npm install ejs
+
+Express looks for a folder called 'views' for ejs templates.
+We need to create that views folder and place our ejs templates inside
+
+We shall then set the 'view engine' for the app to 'ejs' allows
+app.set('view engine', 'ejs');
+
+The scriptlets are
+
+To display content
+<%= %>
+
+To add logical and other identifiers
+<% %>

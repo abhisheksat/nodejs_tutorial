@@ -1,0 +1,13 @@
+Module 14: Working with Express Get Requests
+
+//	app is server
+//	get is method type
+//	/example is url pattern
+app.get('/example'), (req, res) => {
+	res.send('Hitting Example');
+});
+
+We have two types of request properties available.
+
+req.params
+req.query

@@ -1,0 +1,8 @@
+Module 15: Serving Static Files with Express
+
+We are using path module for this
+The files can be stored in a folder called static,
+while including them, you can use an alias for static, let it be public.
+
+With such aliasing, we can prevent exposure of the actual folder structure
+of the application and achieve some aspects of security for file access

@@ -1,0 +1,7 @@
+Module 16: Http POST Request with Express and Body Parser Module
+
+We enable the capability to cater the incoming POST Requests
+that help us add the form submission and other important and secure POST submissions
+
+We need Express server module, and body-parser module to process the incoming POST request body.
+When we access the request parameter, we can extract the paramters from the request body
